@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fuego</string>
+    <string name="signuptext"><![CDATA[ Tidak mempunyai <b><font color=#0000ff>akaun</font></b> ? ]]></string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="navigation_drawer_open">Buka laci navigasi</string>
+    <string name="navigation_drawer_close">Tutup laci navigasi</string>
+    <string name="action_settings">Tetapan</string>
+    <string name="nav_header_title">Fuego User</string>
+    <string name="nav_header_subtitle">hello@fuego.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Laman Utama</string>
+    <string name="menu_favourites">Kegemaran</string>
+    <string name="menu_history">Sejarah Pesanan</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_profile_edit">Sunting</string>
+    <string name="menu_book_table">Tempahan</string>
+    <string name="menu_about">Tentang Kami</string>
+    <string name="menu_logout">Log keluar</string>
+
+    <string name="bottom_sheet_take_photo">Take Photo</string>
+    <string name="bottom_sheet_choose_photo">Choose From Library</string>
+    <string name="cancel">Cancel</string>
+</resources>

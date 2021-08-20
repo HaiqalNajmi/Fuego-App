@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "506397730555",
+    "firebase_url": "https://fuegobooking-9eba2-default-rtdb.firebaseio.com",
+    "project_id": "fuegobooking-9eba2",
+    "storage_bucket": "fuegobooking-9eba2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506397730555:android:b423b3a5ca3cde1181325e",
+        "android_client_info": {
+          "package_name": "com.azul.fuego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506397730555-ekj7oj3l9vvk21j2nhv8iqfck09sbdt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFbGEN79pn32Qi7whbmoF-OLf3bHwb8lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506397730555-ekj7oj3l9vvk21j2nhv8iqfck09sbdt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

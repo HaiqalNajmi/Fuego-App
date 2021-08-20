@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fuego</string>
+    <string name="signuptext"><![CDATA[ Don\'t have an <b><font color=#0000ff>account</font></b> ? ]]></string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_header_title">Fuego User</string>
+    <string name="nav_header_subtitle">hello@fuego.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_history">History</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_profile_edit">Edit Profile</string>
+    <string name="menu_book_table">Booking Form</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="bottom_sheet_take_photo">Take Photo</string>
+    <string name="bottom_sheet_choose_photo">Choose From Library</string>
+    <string name="cancel">Cancel</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.azul.fuego.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_restaurantDetailActivity"
+            app:destination="@id/nav_restaurant_details" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_about"
+            app:destination="@id/nav_about"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_favourites"
+            app:destination="@id/nav_favourites" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_settings"
+            app:destination="@id/nav_settings" />
+        <action
+            android:id="@+id/action_nav_home_to_bookingHistoryFragment"
+            app:destination="@id/nav_history" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.azul.fuego.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_nav_profile_to_profileEditFragment2"
+            app:destination="@id/nav_profile_edit" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.azul.fuego.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_profile_edit"
+        android:name="com.azul.fuego.ui.profile.ProfileEditFragment"
+        android:label="@string/menu_profile_edit"
+        tools:layout="@layout/fragment_profile_edit" />
+    <fragment
+        android:id="@+id/nav_restaurant_details"
+        android:name="com.azul.fuego.ui.restaurant.RestaurantDetailActivity"
+        android:label="fragment_restaurant_detail_activity"
+        tools:layout="@layout/fragment_restaurant_detail_activity" >
+        <action
+            android:id="@+id/action_nav_restaurant_details_to_bookTableFragment"
+            app:destination="@id/nav_book_table" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_favourites"
+        android:name="com.azul.fuego.ui.restaurant.favourites.FavouriteRestaurantFragment"
+        android:label="@string/menu_favourites"
+        tools:layout="@layout/favourite_restaurant_fragment" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.azul.fuego.SettingsFragment"
+        android:label="@string/action_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.azul.fuego.ui.restaurant.history.BookingHistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/booking_history_fragment" />
+    <fragment
+        android:id="@+id/nav_book_table"
+        android:name="com.azul.fuego.ui.restaurant.BookTableFragment"
+        android:label="@string/menu_book_table"
+        tools:layout="@layout/fragment_book_table" />
+</navigation>
