@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/fuego-master/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.124" />
+        <entry key="..\:/fuego-master/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.124" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/activity_booking_confirmation.xml" value="0.11302083333333333" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/app_bar_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/booking_history_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/favourite_restaurant_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_about.xml" value="0.264" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_book_table.xml" value="0.11302083333333333" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_profile_edit.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_restaurant_detail.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_restaurant_detail_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/fragment_settings.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.22826086956521738" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/layout_restaurant_bottom_sheet.xml" value="0.22826086956521738" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/rv_booking_history.xml" value="0.22826086956521738" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/rv_card_restaurant.xml" value="0.2" />
+        <entry key="..\:/fuego-master/app/src/main/res/layout/rv_favourite_card.xml" value="0.22826086956521738" />
+        <entry key="..\:/fuego-master/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
