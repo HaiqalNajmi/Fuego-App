@@ -1,5 +1,5 @@
 <p align="center">
-<img src="main/ic_fuego-playstore.png" width="300" alt="Fuego Logo"> C:\fuego-master\app\src\main
+<img src="app\src\main/ic_fuego-playstore.png" width="300" alt="Fuego Logo">
 </p>
 
 ## About Fuego
